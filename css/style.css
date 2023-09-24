@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: Kumbh ,sans-serif;
+}
+body{
+    width: 1440px;
+     
+
+}
+.card{
+    height: 460px;
+    width: 420px;
+    border-radius: 10%;
+    border: 1px white solid;
+    position: relative;
+    margin: auto;
+    margin-top: 10%;
+    background-image: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card__img img {
+ border-radius: 50%;
+ border: 3px white solid;
+ position: relative;
+ margin-top:27% ;
+ margin-left:37% ;
+}
+.card__desc{
+    text-align: center;
+}
+.card__footer{
+    display: flex;
+    justify-content: space-around;
+}
+.age, .card__footer__B p{
+    color: hsl(0, 0%, 59%);
+
+}
+.card__desc h2,.card__footer__B h3{
+    font-size: 18px;
+}
+
